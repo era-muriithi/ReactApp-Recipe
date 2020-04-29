@@ -1,5 +1,5 @@
-import React, {useEffect, useState} from 'react';
-import style from './recipe.module.css'
+import React, {useEffect, useState } from "react";
+import style from './recipe.module.css';
 import Recipe from './Recipe';
 import './App.css';
 const App = () => {

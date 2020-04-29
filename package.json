@@ -12,10 +12,11 @@
     "react-scripts": "3.4.1"
   },
   "scripts": {
+    "dev": "react-scripts build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "heroku-postbuild": "npm run bild"
+    
   },
   "eslintConfig": {
     "extends": "react-app"
