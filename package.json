@@ -7,16 +7,16 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "cors": "^2.8.5",
+    "cross-env": "^7.0.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
   },
   "scripts": {
-    "dev": "react-scripts build",
-    "start": "react-scripts start",
+    "start": "cross-env PORT=3006 react-scripts start",
     "build": "react-scripts build",
-    "heroku-postbuild": "npm run bild"
-    
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
